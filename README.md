@@ -43,3 +43,25 @@ function age(ages){
 }
 age(N1);
 age(N2);
+
+let N1 = [21, 19, 20, 23];
+let squared = [21*21, 19*19, 20*20, 23*23];
+ console.log(squared);
+//let NA = [];
+//NA.push (squared[0]);
+//NA.push (squared[1]);
+//NA.push (squared[2]);
+//NA.push (squared[3]);
+// console.log(NA);
+  
+function age(ages){
+  let sum = 0;
+  for (let i = 0; i < ages.length; i++) {
+  
+  sum = sum + ages[i];
+}
+  console.log(sum/ages.length);
+    return sum; //возвращается из вывода значения
+}
+let ag = age(squared); //сохраняется
+
