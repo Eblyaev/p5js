@@ -1,5 +1,6 @@
 # p5js
 ## Функции
+```C++
 function greet(name) {
   console.log("Hello," + name); //print()
   }
@@ -64,4 +65,4 @@ function age(ages){
     return sum; //возвращается из вывода значения
 }
 let ag = age(squared); //сохраняется
-
+```
